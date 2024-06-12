@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Nav Bar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="heading" id="parent-id">Rishabh</div>
+      <div class="toggle-button" id="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <div class="primary-navbar-links">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><button id="signup-button">Signup</button></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="navbar-links" id="navbar-links">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="signup-button-mobile">SignUp</button></li>
+      </ul>
+    </div>
+
+    <!-- Form -->
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <span class="close-button" id="close-button">&times;</span>
+        <div class="form-container">
+          <form id="signup-form">
+            <input
+              type="text"
+              id="name"
+              placeholder="Name"
+              name="name"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              placeholder="Email"
+              name="email"
+              required
+            />
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              name="password"
+              required
+            />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
