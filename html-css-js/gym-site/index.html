@@ -4,10 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
     <title>Home</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav class="navbar">
+        <img src="./images/fitness logo 5.png" alt="" />
+        <div class="toggle-button" id="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="primary-navbar-links">
+          <ul>
+            <li><a href="./pages/home.html">Home</a></li>
+            <li><a href="./pages/classes.html">Classes</a></li>
+            <li><a href="./pages/products.html">Products</a></li>
+            <li><a href="./pages/blogs.html">Blogs</a></li>
+            <li><button id="signup-button">Join Us</button></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="navbar-links" id="navbar-links">
+        <ul>
+          <li><a href="./pages/home.html">Home</a></li>
+          <li><a href="./pages/classes.html">Classes</a></li>
+          <li><a href="./pages/products.html">Products</a></li>
+          <li><a href="./pages/blogs.html">Blogs</a></li>
+          <li><button id="signup-button-mobile">Join Us</button></li>
+        </ul>
+      </div>
+    </header>
     <main>
       <div class="hero-section">
         <img src="./images/Revitalize your body-1.png" alt="" />
@@ -26,7 +56,6 @@
           <img src="./images/Vector-6.png" alt="" />
         </div>
       </div>
-
       <div class="second-section">
         <div class="second-section-container">
           <div class="second-section-card card-1">
@@ -93,7 +122,6 @@
           </div>
         </div>
       </div>
-
       <div class="fitness-section">
         <img src="./images/fitness-club.jpeg" alt="" />
         <div class="fitness-container">
@@ -128,7 +156,77 @@
           </div>
         </div>
       </div>
+
+      <div class="info-section">
+        <div class="info-container">
+          <!-- card 1 -->
+          <div class="info-card">
+            <div class="info-img">
+              <img src="./images/pic1.jpeg" alt="" />
+            </div>
+            <div class="info-text">
+              <p class="info-title">Best place for body transformation</p>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div class="info-card">
+            <div class="info-img">
+              <img src="./images/mark-adriane.jpeg" alt="" />
+            </div>
+            <div class="info-text">
+              <p class="info-title">Best Cross Fit gym in this area</p>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div class="info-card">
+            <div class="info-img">
+              <img src="./images/Phil-heath.jpeg" alt="" />
+            </div>
+            <div class="info-text">
+              <p class="info-title">
+                Best Bodybuilding gym with all the equipment
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-    <footer></footer>
+    <footer>
+
+      
+
+      <div class="footer">
+        <div class="footer-column">
+          <h3>COMPANY</h3>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Help/FAQs</a></li>
+            <li><a href="#">Program</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>CONTACT</h3>
+          <ul>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Plans</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>MORE</h3>
+          <ul>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Mobile</a></li>
+            <li><a href="#">Method</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright">CopyRight All Rights Reserved</div>
+    </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
